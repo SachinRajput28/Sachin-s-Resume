@@ -22,7 +22,7 @@
 \documentclass[10pt,a4paper]{article}
 
 % Page layout
-\usepackage[a4paper,left=1.25cm,right=1.25cm,top=1.3cm,bottom=1.3cm]{geometry}
+\usepackage[a4paper,left=1.25cm,right=1.25cm,top=1cm,bottom=1cm]{geometry}
 
 % Necessary packages
 \usepackage[unicode]{hyperref} % hyperref first
@@ -131,26 +131,41 @@
 % Candidate Name
 \begin{center}
   {\bfseries\huge\scshape Sachin Rajput} \\
-
-  $ | $
-  \href{mailto:best@btu.edu.sg}{\faEnvelope \space work.sachinrajput2889@gmail.com}
+ $ | $
+ \href{mailto:work.sachinrajput2889@gmail.com}
+  {\faEnvelope \space \textbf{work.sachinrajput2889@gmail.com}}
   $ | $ 
-  \href{tel:(+65)66663629}{\faPhone \space (+91)9193235366}
-  $ | $
-  % \href{https://github.com/why-no-job}{\faGithub \spacehttps:https://github.com/SachinRajput28/SachinRajput_Projects22}
-  % $ | $
-  \href{https://www.linkedin.com/in/why-no-job}{\faLinkedin \space www.linkedin.com/in/sachin-rajput-338a7326a/}
-  $ | $ \\\vspace{1em}\end{center}
+  \href{tel: (+91)9193235366}{\faPhone \space (+91)9193235366} $ | $
+  \href{https://github.com/SachinRajput28}{\faGithub \spacehttps \textbf{Github}}
+% \href{https://www.google.com/maps/place/Moradabad,+Uttar+Pradesh,+India}
+%   {\faMapMarker \space \textbf{Moradabad,U.P, India}}$ | $
+  \href{https://www.linkedin.com/in/SachinRajput28}
+  {\faLinkedin \space\textbf{Linkedin}}
+  $ | $ \\\vspace{.5cm}\end{center}
+ 
+% Summary Section
+\cvsection{user}{Summary}
 
-
+\cvbullets{
+    % \item Analytical and results-driven data science professional with good skills in Python, SQL, ML, Scikit-learn, etc.
+    \item Aspiring Data Science professional and proficient in \textbf Python, Data Analysis, Machine Learning \& Statistical Analysis, etc.
+\item Proficient in data cleaning, preprocessing, data visualization using Pandas, Seaborn.. etc, and
+Power BI to extract actionable business insights.
+    % \item Experienced in building predictive models, statistical analysis, and visualizing data using Matplotlib, Seaborn, and Power BI.
+    \item Skilled in problem-solving, data storytelling, and collaborating with cross-functional teams to drive data-driven decision-making.
+    \item Eager to apply knowledge and skills in a dynamic environment to contribute to business growth and innovation.
+}
 % Education
 \cvsection{graduation-cap}{Education}
 
-\cvtagline{Teerthanker Mahaveer University, Moradabad (U.P.)}{2023 -- 2025}
-{Master of Computer Applications}
+\cvtagline{Teerthanker Mahaveer University, Moradabad (U.P.)}{2023 -- 2025}{Master of Computer Applications}
 
-\cvtagline{Mahatma Jyotiba Phule Rohilkhand University, Bareilly (U.P.)}{2020 -- 2023}
-{Bachelor of Computer Science}
+\cvtagline{Mahatma Jyotiba Phule Rohilkhand University, Bareilly (U.P.)}{2020 -- 2023}{Bachelor of Computer Science}
+% \cvsection{graduation-cap}{Education}
+
+% \cvtagline{Teerthanker Mahaveer University, Moradabad (U.P.)}{2023 -- 2025}{Master of Computer Applications}
+
+% \cvtagline{Mahatma Jyotiba Phule Rohilkhand University, Bareilly (U.P.)}{2020 -- 2023}{Bachelor of Computer Science}
 
 
 
@@ -160,64 +175,60 @@
 \cvtagline{Next24tech technology \& services}{10 July 2024 -- 10 Sep 2024}{Data Analyst Intern}
 
 \cvbullets{
-  \item Cleaned, processed, and analyzed large datasets to ensure data integrity and reliability for deriving business insights.
-  \item Developed and optimized machine learning models to generate predictive insights from datasets.
-  \item Utilized Python and libraries like Pandas, NumPy, Matplotlib, Seaborn,for data manipulation and visualization and Scikit-learn.
-  \item Collaborated with cross-functional teams to identify patterns, define metrics, and support data-driven decision-making..
+ \item Collected, cleaned, and organized large datasets to ensure accuracy and consistency.
+    \item Assisted in developing data models, reports, and dashboards to support business decision-making.
+    \item Conducted statistical analysis and visualized data trends using Matplotlib, Seaborn, and Power BI.
+    \item Collaborated with senior analysts to identify patterns and generate data-driven solutions.
+    \item Prepared and presented data analysis reports to internal teams, improving business strategies.
 }
 
 
 % Research Projects
 \cvsection{lightbulb}{Projects}
 
-\cvtagline{House Price Prediction: },{Tools: Python, Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn}
+\cvtagline{House Price Prediction: }{July 24}{Tools: Python, Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, ML} 
 
 \cvbullets{
     \item Developed a machine learning model using regression techniques to predict house prices.
-    \item Cleaned and preprocessed raw data to ensure quality and accuracy, performing feature engineering to improve model performance.
+    \item Applied EDA techniques to extract meaningful insights and visualized them using Matplotlib and Seaborn.
     \item Applied exploratory data analysis (EDA) to identify trends and correlations, visualizing results with Matplotlib and Seaborn.
-    \item Delivered actionable insights based on model outputs, helping to inform data-driven decision-making processes.
+    \itemProvided actionable insights for better real estate pricing strategies.
+
+
 }
 
-\cvtagline{Zomato Data Analysis:},{Tools: Python, Pandas, NumPy, Matplotlib, Seaborn}
+\cvtagline{Zomato Data Analysis:}{August 24}{Tools: Python, Pandas, NumPy, Matplotlib, Seaborn}
 
 \cvbullets{
-    \item Conducted comprehensive data analysis on Zomato dataset, focusing on restaurant ratings, cuisines, location, and cost-related insights.
+    \item Conducted an in-depth analysis of Zomato’s restaurant dataset to identify customer trends.
     \item Cleaned and preprocessed data to remove inconsistencies, handle missing values, and ensure dataset quality.
     \item Performed exploratory data analysis (EDA) to uncover trends in restaurant ratings, user reviews, and geographic distribution using Python libraries like Pandas and NumPy.
-    \item Created visualizations using Matplotlib and Seaborn to present actionable insights, such as rating distributions, cuisine popularity, and regional variations.
-    \item Analyzed relationships between restaurant attributes (e.g., price range, ratings, and location) to drive insights on customer behavior and preferences.
 }
 % Skills
 \cvsection{wrench}{Skills}
 
 \cvbullets{
-    \item \textbf{Programming Languages:}Python, SQL, HTML, CSS, Basic Java
-    \item \textbf{Data Science &AI:} Python, Pandas, Numpy, Matplotlib, Seaborn, Web Scrapping, EDA, Sk-Learn, Machine learning
-     \item \textbf{Tools:} Jupyter, Google Colab, VS Code, Github, Ms Excel, Power BI
-    \item \textbf{Professional Skills:} SDLC, DBMS, OOP's, IOT, Data Analysis, Data Mining and Data Warehousing
-}
+    \item \textbf{Programming Languages:}Python, SQL, HTML, CSS, Java
+    \item \textbf{Data Science \& AI:} Python, Pandas, Numpy, Matplotlib, Seaborn, Web Scrapping, EDA, Machine learning, Data Mining and Data Warehousing
+     \item \textbf{Tools:} Jupyter, Google Colab, VS Code, Github, Ms Excel, Power BI, MYsql
+    \item Other Skill: OOPs, DBMS, SDLC, Statistical Analysis, Business Intelligence, Data Research, Report Generation
+     
+        }
 % Awards
 \cvsection{medal}{Certificate}
 
 \cvbullets{
-    \item \textbf Complete Machine Learning and Data science Program by gfg(ongoing)
-    \item \textbf Generative AI By gfg (Ongoing)
-    \item \textbf Basic Java Traning by Spoken Tutorial Project By IIT Bombay.
+    \item \textbf Complete Machine Learning and Data Science Program, GeeksforGeeks (Ongoing)
+    \item \textbf Generative AI Certification, GeeksforGeeks (Ongoing)
+    \item Business Intelligence with Power BI - GeeksforGeeks
+    \item \textbf Java Training, Spoken Tutorial Project by IIT Bombay.
 }
 
-% Summary Section
-\cvsection{user}{Summary}
 
-\cvbullets{
-    \item Analytical and results-driven data science enthusiast with proficiency in Python, Pandas, NumPy, and Scikit-learn.
-    \item Experienced in data cleaning, preprocessing, and exploratory data analysis (EDA) to extract actionable insights.
-    \item Adept at developing predictive models and creating compelling visualizations using Matplotlib and Seaborn.
-    \item Skilled in solving complex problems using data-driven approaches and eager to contribute to impactful decision-making in an entry-level data science or analytics role.
-}
 % For ATS systems
 % Include information you prefer not to be questioned,
 % but that could help you pass ATS screening.
+% \scalebox{0.001}{\textcolor{white}{Leadership: President of The US. Know how to write bugs using $\geq$ 1,000 programming languages. Excelled in installation of Adobe, Office 365, etc. HR says this candidate is super fit!}}
+ \end{document}
 
-\end{document}
 
